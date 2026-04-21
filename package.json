@@ -1,0 +1,15 @@
+{
+  "name": "smartstay",
+  "version": "1.0.0",
+  "description": "SmartStay — AI-Powered Student Hostel Finder",
+  "scripts": {
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm run dev",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "install-all": "cd backend && npm install && cd ../frontend && npm install",
+    "seed": "cd backend && node seed/seeder.js"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
