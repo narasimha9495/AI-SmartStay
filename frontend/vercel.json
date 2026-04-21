@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://smartstay-backend.onrender.com/api/:path*"
+      "destination": "https://smartstay-backend-8ipg.onrender.com/api/:path*"
     }
   ]
 }
